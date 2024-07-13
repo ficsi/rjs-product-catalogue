@@ -6,8 +6,8 @@ import App from './App';
 import {
 	createBrowserRouter, RouterProvider,
 } from "react-router-dom";
-import {CategoriesListing} from "./components/listing/categories/CategoriesListing";
-import ProuctsListing from "./components/listing/products/ProuctsListing";
+import {CategoriesListing} from "./components/categories/listing/CategoriesListing";
+import ProuctsListing from "./components/products/listing/ProuctsListing";
 import {CategoryProvider} from "./categoryContext";
 
 const router = createBrowserRouter([

@@ -1,7 +1,6 @@
 import './App.css';
-import {CategoriesListing} from "./components/listing/categories/CategoriesListing";
-import {useContext} from "react";
-import {CategoryProvider, useCategory} from "./categoryContext";
+import {CategoriesListing} from "./components/categories/listing/CategoriesListing";
+import {CategoryProvider} from "./categoryContext";
 
 
 

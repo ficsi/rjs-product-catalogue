@@ -17,7 +17,6 @@ function Modal({visible, setVisible, details}) {
 			</div>
 			<div id="dialog">
 				<button aria-label="close" className="x">❌</button>
-				<i className="rating absolute">{rating}</i>
 				<h2>{title}</h2>
 				<p>{description}</p>
 
