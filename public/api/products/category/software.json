@@ -1,0 +1,398 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Data Analytics Suite",
+      "description": "A comprehensive data analytics platform for exploring and visualizing data.",
+      "category": "data-analysis",
+      "price": 99.99,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "tags": [
+        "data analytics",
+        "business intelligence",
+        "data visualization"
+      ],
+      "brand": "DataCorp",
+      "sku": "DAS123",
+      "warrantyInformation": "Free updates for one year",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Powerful and user-friendly data analytics tool.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Alex Turner",
+          "reviewerEmail": "alex.turner@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/dataanalyticssuite_screenshot1.png",
+        "https://example.com/dataanalyticssuite_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/dataanalyticssuite_logo.png"
+    },
+    {
+      "id": 2,
+      "title": "Cloud Storage Pro",
+      "description": "Secure and scalable cloud storage solution with advanced features.",
+      "category": "cloud-storage",
+      "price": 4.99,
+      "discountPercentage": 0,
+      "rating": 4.3,
+      "tags": [
+        "cloud storage",
+        "backup",
+        "file sharing"
+      ],
+      "brand": "CloudMax",
+      "sku": "CSP123",
+      "warrantyInformation": "24/7 customer support",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Reliable and affordable cloud storage.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Emily Davis",
+          "reviewerEmail": "emily.davis@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/cloudstoragepro_screenshot1.png",
+        "https://example.com/cloudstoragepro_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/cloudstoragepro_logo.png"
+    },
+    {
+      "id": 17,
+      "title": "Video Editing Suite",
+      "description": "Professional video editing software with advanced features for filmmakers and content creators.",
+      "category": "video-editing",
+      "price": 199.99,
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "tags": [
+        "video editing",
+        "filmmaking",
+        "content creation"
+      ],
+      "brand": "ClipMaster",
+      "sku": "VES123",
+      "warrantyInformation": "Free updates for two years",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Incredible video editing software with amazing features.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Michael Brown",
+          "reviewerEmail": "michael.brown@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/videoeditingsuite_screenshot1.png",
+        "https://example.com/videoeditingsuite_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/videoeditingsuite_logo.png"
+    },
+    {
+      "id": 18,
+      "title": "Project Management Dashboard",
+      "description": "Real-time project management dashboard with visualizations and analytics.",
+      "category": "project-management",
+      "price": 24.99,
+      "discountPercentage": 0,
+      "rating": 4.2,
+      "tags": [
+        "project management",
+        "dashboard",
+        "analytics"
+      ],
+      "brand": "DashBoardPro",
+      "sku": "PMD123",
+      "warrantyInformation": "Free support",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great for visualizing project progress.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Sarah Johnson",
+          "reviewerEmail": "sarah.johnson@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/projectmanagementdashboard_screenshot1.png",
+        "https://example.com/projectmanagementdashboard_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/projectmanagementdashboard_logo.png"
+    },
+    {
+      "id": 33,
+      "title": "Customer Relationship Management (CRM) Platform",
+      "description": "Comprehensive CRM software for managing customer interactions and sales pipelines.",
+      "category": "crm",
+      "price": 79.99,
+      "discountPercentage": 15,
+      "rating": 4.6,
+      "tags": [
+        "crm",
+        "sales",
+        "customer management"
+      ],
+      "brand": "RelateCRM",
+      "sku": "CRM123",
+      "warrantyInformation": "Free customer support",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Excellent CRM for growing businesses.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "William Harris",
+          "reviewerEmail": "william.harris@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/crm_screenshot1.png",
+        "https://example.com/crm_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/crm_logo.png"
+    },
+    {
+      "id": 34,
+      "title": "Cybersecurity Suite",
+      "description": "Advanced cybersecurity protection for businesses of all sizes.",
+      "category": "cybersecurity",
+      "price": 149.99,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "tags": [
+        "cybersecurity",
+        "protection",
+        "data security"
+      ],
+      "brand": "CyberShield",
+      "sku": "CS123",
+      "warrantyInformation": "24/7 security monitoring",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Top-notch cybersecurity solution.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Olivia Carter",
+          "reviewerEmail": "olivia.carter@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/cybersecuritysuite_screenshot1.png",
+        "https://example.com/cybersecuritysuite_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/cybersecuritysuite_logo.png"
+    },
+    {
+      "id": 49,
+      "title": "Human Resources Information System (HRIS)",
+      "description": "Comprehensive HR software for managing employee data, payroll, benefits, and performance.",
+      "category": "hr-software",
+      "price": 199.99,
+      "discountPercentage": 10,
+      "rating": 4.5,
+      "tags": [
+        "hr",
+        "payroll",
+        "benefits",
+        "performance management"
+      ],
+      "brand": "PeoplePro",
+      "sku": "HRIS123",
+      "warrantyInformation": "Free HR consulting",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Streamlined HR processes with this software.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Ethan Miller",
+          "reviewerEmail": "ethan.miller@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/hris_screenshot1.png",
+        "https://example.com/hris_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/hris_logo.png"
+    },
+    {
+      "id": 50,
+      "title": "Email Marketing Automation",
+      "description": "Automated email marketing platform for creating and sending personalized campaigns.",
+      "category": "email-marketing",
+      "price": 49.99,
+      "discountPercentage": 0,
+      "rating": 4.7,
+      "tags": [
+        "email marketing",
+        "automation",
+        "campaigns"
+      ],
+      "brand": "MailMaster",
+      "sku": "EMA123",
+      "warrantyInformation": "Free email templates",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Increased email engagement with this tool.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Ava Walker",
+          "reviewerEmail": "ava.walker@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/emailmarketing_screenshot1.png",
+        "https://example.com/emailmarketing_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/emailmarketing_logo.png"
+    },
+    {
+      "id": 65,
+      "title": "Inventory Management System",
+      "description": "Efficiently manage and track inventory levels, orders, and stock movements.",
+      "category": "inventory-management",
+      "price": 99.99,
+      "discountPercentage": 10,
+      "rating": 4.3,
+      "tags": [
+        "inventory",
+        "stock management",
+        "supply chain"
+      ],
+      "brand": "StockPro",
+      "sku": "IMS123",
+      "warrantyInformation": "Free implementation support",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Improved inventory accuracy with this system.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Benjamin Carter",
+          "reviewerEmail": "benjamin.carter@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/inventorymanagement_screenshot1.png",
+        "https://example.com/inventorymanagement_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/inventorymanagement_logo.png"
+    },
+    {
+      "id": 66,
+      "title": "Accounting Software",
+      "description": "Comprehensive accounting software for managing finances, invoicing, and reporting.",
+      "category": "accounting",
+      "price": 79.99,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "tags": [
+        "accounting",
+        "finance",
+        "invoicing"
+      ],
+      "brand": "AccountMaster",
+      "sku": "AS123",
+      "warrantyInformation": "Free accounting tutorials",
+      "availabilityStatus": "Available",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Easy-to-use accounting software with great features.",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Charlotte Lee",
+          "reviewerEmail": "charlotte.lee@example.com"
+        }
+      ],
+      "returnPolicy": "30-day money-back guarantee",
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "1234567890123",
+        "qrCode": "https://example.com/qr-code.png"
+      },
+      "images": [
+        "https://example.com/accountingsoftware_screenshot1.png",
+        "https://example.com/accountingsoftware_screenshot2.png"
+      ],
+      "thumbnail": "https://example.com/accountingsoftware_logo.png"
+    }
+  ],
+  "total": 10,
+  "skip": 0,
+  "limit": 4
+}

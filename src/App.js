@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import {CategoriesListing} from "./components/listing/categories/CategoriesListing";
+import {useContext} from "react";
+import {CategoryProvider, useCategory} from "./categoryContext";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<CategoryProvider>
+			<div className="App">
+				{/*<h1 className="title"></h1>*/}
+				<CategoriesListing />
+			</div>
+		</CategoryProvider>
+	);
 }
 
 export default App;
