@@ -13,6 +13,7 @@ function ProductsListing() {
 	const [skip, setSkip] = useState(0); //TODO: optional
 	const [isVisible, setIsVisible] = useState(false);
 	const param = useParams()
+	const loadMore = React.createRef();
 
 	//TODO: refactor products fetching
 	useEffect(() => {
@@ -25,16 +26,29 @@ function ProductsListing() {
 			console.log(error);
 		}
 		setIsVisible(true);
+
+		handleShowMoreBtn();
+
+
 	}, [limit]);
 
 	useEffect(() => {
 		if (products?.total <= limit) {
 			setIsVisible(false)
 		}
+		handleShowMoreBtn();
+
 	}, [limit, products]);
 
+	const handleShowMoreBtn = () => {
+		console.log(loadMore?.current)
+		setTimeout(() => {
+			loadMore?.current?.classList.add('active');
+		}, 1000)
+	}
 	const handleLoadMore = () => {
 		setLimit(limit + 4);
+
 	};
 	const goBack = () => {
 		return '/';
@@ -47,6 +61,7 @@ function ProductsListing() {
 			.split(' ')
 			.join('-');
 	}
+
 	return (
 		<>
 			<div className="container">
@@ -65,7 +80,7 @@ function ProductsListing() {
 					}
 				</div>
 
-				{isVisible && <button onClick={() => handleLoadMore()} id="load-more">Load more</button>}
+				{isVisible && <button ref={loadMore} onClick={() => handleLoadMore()} id="load-more" className={'load-more'}>Load more</button>}
 
 			</div>
 		</>

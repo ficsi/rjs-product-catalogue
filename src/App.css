@@ -62,3 +62,21 @@ body{
 .flex-center{
     justify-content: center;
 }
+.--back {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: monospace;
+    display: inline-block;
+    width: auto;
+    margin-top: 60px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    i {
+        font-family: cursive;
+        text-transform: uppercase;
+    }
+}
