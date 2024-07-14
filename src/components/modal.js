@@ -4,8 +4,7 @@ import {useCategory} from "../categoryContext";
 
 function Modal({visible, setVisible, details}) {
 	const {thumbnail, rating, title, price, category, description, tags} = details;
-	const handleModal = (event) => {
-		console.log(thumbnail)
+	const handleModal = () => {
 		if (visible) {
 			visible.setShowModal(!visible)
 		}
@@ -24,7 +23,7 @@ function Modal({visible, setVisible, details}) {
 					<hr/>
 					<hr/>
 					<p className='tags'>
-						{tags.map(tag => <i>{tag}</i>)}
+						{tags.map((tag) => <i key={tag}>{tag}</i>)}
 					</p>
 					</div>
 			</div>

@@ -1,7 +1,7 @@
 import React, {createContext, useContext, useEffect, useState} from 'react';
 
 const CategoryContext = createContext();
-export const data_url = 'http://localhost:3000/api/';
+export const data_url = process.env.REACT_APP_DATA_URL;
 
 export const fetchData = async (url) => {
 	// console.log(url)

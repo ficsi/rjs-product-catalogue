@@ -17,8 +17,6 @@ function ProductsListing() {
 		if (title === null) {
 			title = param.category;
 		}
-		console.log(title);
-		console.log(param)
 		return title.toLowerCase()
 			.split(' ')
 			.join('-');
@@ -44,8 +42,9 @@ function ProductsListing() {
 	}, [limit, products]);
 
 	const handleLoadMore = () => {
-		console.log(loading)
+		console.log( process.env.REACT_APP_PRODUCTS_LOADING_LIMIT)
 		setLimit(limit + 4);
+		console.log(limit)
 	};
 	const goBack = () => {
 		return '/';
