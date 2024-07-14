@@ -1,18 +1,24 @@
 import './SingleProduct.css';
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Modal from "../modal";
 
-function SingleProduct({product}) {
-
+function SingleProduct({product, isLoading}) {
+	const productCard = React.createRef();
 	const {title, price, thumbnail} = product;
 	const [showModal, setShowModal] = useState(false);
+
+	useEffect(() => {
+		setTimeout(() => {
+			productCard?.current?.classList.add('visible');
+		}, 500)
+	}, [product]);
 
 	const handleInfoPopUp = (event) => {
 		setShowModal(!showModal);
 	}
 	return (
 		<>
-			<div className="product-card " onClick={(e) => handleInfoPopUp(e)}>
+			<div ref={productCard} className={"product-card"} onClick={(e) => handleInfoPopUp(e)}>
 				<div className="main">
 					<img className="product-card_image"
 						 src={thumbnail}

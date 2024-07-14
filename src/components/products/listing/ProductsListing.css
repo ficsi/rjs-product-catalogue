@@ -1,4 +1,15 @@
+.product-card {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.product-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 .products-list {
+
     margin-top: 20px;
     margin-bottom: 20px;
     display: grid;

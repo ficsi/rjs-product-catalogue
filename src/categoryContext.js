@@ -4,7 +4,6 @@ const CategoryContext = createContext();
 export const data_url = process.env.REACT_APP_DATA_URL;
 
 export const fetchData = async (url) => {
-	// console.log(url)
 	const response = await fetch(url, {
 		headers: {
 			'Content-Type': 'application/json',

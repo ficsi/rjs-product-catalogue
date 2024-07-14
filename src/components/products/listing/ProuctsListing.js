@@ -13,19 +13,11 @@ function ProductsListing() {
 	const [skip, setSkip] = useState(0); //TODO: optional
 	const [isVisible, setIsVisible] = useState(false);
 	const param = useParams()
-	const formatText = (title) => {
-		if (title === null) {
-			title = param.category;
-		}
-		return title.toLowerCase()
-			.split(' ')
-			.join('-');
-	}
+
 	//TODO: refactor products fetching
 	useEffect(() => {
 		try {
 			fetchData(`${data_url}products/category/${formatText(currentCategory)}.json?limit=${limit}&skip=${skip}`).then(data => {
-				console.log(data);
 				setProducts({...data, products: data.products.slice(0, limit)});
 				setLoading(false)
 			});
@@ -42,14 +34,19 @@ function ProductsListing() {
 	}, [limit, products]);
 
 	const handleLoadMore = () => {
-		console.log( process.env.REACT_APP_PRODUCTS_LOADING_LIMIT)
 		setLimit(limit + 4);
-		console.log(limit)
 	};
 	const goBack = () => {
 		return '/';
 	}
-
+	const formatText = (title) => {
+		if (title === null) {
+			title = param.category;
+		}
+		return title.toLowerCase()
+			.split(' ')
+			.join('-');
+	}
 	return (
 		<>
 			<div className="container">
@@ -60,10 +57,10 @@ function ProductsListing() {
 
 				<h1 className="title flex ">{currentCategory ? currentCategory : param.category}</h1>
 				<hr/>
-				<div className="products-list">
+				<div className={"products-list"}>
 					{
 						products.products?.map(product =>
-							<SingleProduct className="card" key={product.title} product={product}/>,
+							<SingleProduct className="card" key={product.title} isLoading={loading} product={product}/>,
 						)
 					}
 				</div>
